@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/bienvenida', function() {
+    //return 'Hola perro!';
+    return view('landing-page');
+});
+
+Route::get('/contacto', function() {
+    //return 'Hola perro!';
+    return view('contacto');
+});
