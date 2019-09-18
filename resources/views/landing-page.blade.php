@@ -1,24 +1,10 @@
-<!doctype html>
-<html>
-<head>
-    <title> Caliz - Landing Page</title>
-    <!-- CSS -->
-</head>
+@extends('layouts/mi-layout')
 
-<body>
-    <h1> Quiubo, perros!</h1>
-    <div>
-        HEADER
-    </div>
-    <div>
-        NAV BAR / MENU
-    </div>
+@section('contenido')
     <div class="contenido">
-        <h1> Hola Mundo desde Vista</h1>
+        <h1> BIENVEVIDA PERROS</h1>
     </div>
-    <div>
-        footer
-    </div>
-</body>
-</html>
+@endsection
+    
+
 

@@ -1,23 +1,14 @@
-<!doctype html>
-<html>
-<head>
-    <title> Caliz - Landing Page</title>
-    <!-- CSS -->
-</head>
+@extends('layouts/mi-layout')
 
-<body>
-    <h1> Quiubo, perros! otra vez c:</h1>
-    <div>
-        HEADER
-    </div>
-    <div>
-        NAV BAR / MENU
-    </div>
+@section('contenido')
     <div class="contenido">
         <h1> CONTACTO</h1>
+        
+    <ul> 
+        @for($i = 0; $i <= 5; $i++)
+            <li>Elemento {{$i}}</li>
+        @endfor
+           
+    
     </div>
-    <div>
-        footer
-    </div>
-</body>
-</html>
+@endsection
